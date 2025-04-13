@@ -1,0 +1,5 @@
+line = list("qwe Heh llo worl h d")
+first = line.index("h")
+line.reverse()
+last = line.index("h")
+print(*line[last+1:-first-1])
